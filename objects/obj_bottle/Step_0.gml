@@ -1,7 +1,4 @@
 event_inherited();
-if(image_angle mod 360 > 180 && image_angle mod 360 < 360){
-	image_angle++;	
-}
-else{
-	image_angle--;
+if(grab_state != state_grabbed){
+	image_angle = 0 + wave(-45,45,2,5);
 }
