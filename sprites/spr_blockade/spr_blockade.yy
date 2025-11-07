@@ -19,6 +19,7 @@
   "height":32,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"c07aea2e-0569-4be4-9515-8a865e7a2ba3","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"c07aea2e-0569-4be4-9515-8a865e7a2ba3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"cba8a6bd-be4a-465e-bc0a-c062c5f760a5","blendMode":0,"displayName":"default","isLocked":false,"name":"cba8a6bd-be4a-465e-bc0a-c062c5f760a5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_blockade",

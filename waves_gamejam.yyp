@@ -31,6 +31,7 @@
     {"id":{"name":"obj_display_manager","path":"objects/obj_display_manager/obj_display_manager.yy",},},
     {"id":{"name":"obj_emptyspace","path":"objects/obj_emptyspace/obj_emptyspace.yy",},},
     {"id":{"name":"obj_grabbable","path":"objects/obj_grabbable/obj_grabbable.yy",},},
+    {"id":{"name":"obj_grid_tile","path":"objects/obj_grid_tile/obj_grid_tile.yy",},},
     {"id":{"name":"obj_grid","path":"objects/obj_grid/obj_grid.yy",},},
     {"id":{"name":"obj_slot","path":"objects/obj_slot/obj_slot.yy",},},
     {"id":{"name":"obj_tile_manager","path":"objects/obj_tile_manager/obj_tile_manager.yy",},},
