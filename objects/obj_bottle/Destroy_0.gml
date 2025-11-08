@@ -1,0 +1,1 @@
+global.bottle_alive = false;

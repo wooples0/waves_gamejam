@@ -10,7 +10,7 @@
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
-  "For3D":true,
+  "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"d4190382-a069-43c7-9c2a-d6a984c2f232","name":"d4190382-a069-43c7-9c2a-d6a984c2f232","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"fb866416-6ee4-49d8-b3b5-fb6e07f9f604","name":"fb866416-6ee4-49d8-b3b5-fb6e07f9f604","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
@@ -61,7 +61,7 @@
     },
     "name":"spr_water_tile",
     "playback":1,
-    "playbackSpeed":0.0,
+    "playbackSpeed":5.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

@@ -21,16 +21,19 @@ for(var i = 0; i < GRID_CELLS; i++){
 		obj.grid_index = i;
 		obj.x += sprite_get_width(obj.sprite_index) / 2;
 		obj.y += sprite_get_height(obj.sprite_index) / 2;
+		obj.is_interactable = true;
+		global.grid[i] = obj.id;
 		}
-	
-		if(global.grid[i] != -1){
-			var obj_to_draw = global.grid[i];
+		else{
+			var obj_to_draw = obj_blockade;
 			var obj = instance_create_layer(draw_x, draw_y, "level_background", obj_to_draw);
 			obj.grid_index = i;
 			obj.x += sprite_get_width(obj.sprite_index) / 2;
 			obj.y += sprite_get_height(obj.sprite_index) / 2;
-		}
-	}
+			obj.is_interactable = false;
+			global.grid[i] = obj.id;
+		}	
+}
 	
 	
 	

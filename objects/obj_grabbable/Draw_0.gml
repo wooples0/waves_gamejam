@@ -1,4 +1,4 @@
-if(is_grabbable && is_mouse_over){
+if(is_grabbable && (grab_state == state_grabbed || is_mouse_over)){
 	shader_set(shd_outline);
 	shader_set_uniform_f(u_pixel_w, texel_w);
 	shader_set_uniform_f(u_pixel_h, texel_h);
